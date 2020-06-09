@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Site settings
 title: BY Blog
 SEOTitle: 柏荧的博客 | BY Blog
@@ -112,3 +113,6 @@ friends: [
         href: "https://developer.apple.com/"
     }
 ]
+=======
+_config.yml
+>>>>>>> 1f01fb4b51fc33138828eabbe1cd9480ffc1339c
