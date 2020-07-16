@@ -30,7 +30,7 @@ github_username:  none
 paginate: 5
 
 # Build settings
-theme: minima
+theme: jekyll-theme-persephone
 plugins:
   - jekyll-feed
 
