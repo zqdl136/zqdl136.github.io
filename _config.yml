@@ -35,14 +35,14 @@ plugins:
 paginate: 25
 paginate_path: /page:num/
 
-valine_comment:
-  enable: true
-# app_id
-  leancloud_appid: aEi0qhVihkpS1YfGyjtFbs9v-gzGzoHsz
-# app_key
-  leancloud_appkey: bMvALVyeDraAPEEGLUrqRO9m
-# placeholde
-  placeholder: "Just go go"
+comments:
+  gitalk: true
+  gitalk_clientID: 'bbd42385d25bbf1653b3'
+  gitalk_Secret: 'a9b9a5b678c4f023b05f9fb52807e7d1331200c6'
+  gitalk_repo: 'zqdl136.github.io'
+  gitalk_owner: 'zqdl136'
+  gitalk_admin: 'zqdl136'
+  distractionFreeMode: true
 
 # Exclude from processing.
 # The following items will not be processed, by default.
