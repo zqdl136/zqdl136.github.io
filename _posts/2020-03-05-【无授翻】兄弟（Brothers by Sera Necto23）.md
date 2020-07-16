@@ -1,7 +1,7 @@
 ---
 title: 【无授翻】兄弟（Brothers by Sera Necto23）
 date: 2020-03-05 08:55:21
-tags: [spn, wincest]
+tags: [wincest]
 categories: [Text]
 ---
 
