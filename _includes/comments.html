@@ -3,6 +3,6 @@
 {% include comment/static/comments.html %}
 {%- when 'disqus' -%}
 {% include comment/disqus.html %}
+{%- when 'valine' -%}
+{% include comment/valine.html %}
 {%- endcase -%}
-{% elsif site.valine_comment.enable %}
- <div id="vcomments"></div>
