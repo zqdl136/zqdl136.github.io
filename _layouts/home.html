@@ -17,7 +17,7 @@ layout: default
           <time>{{ post.date | date: "%Y-%m-%d" }}</time>
         </div>
         <div class="post__excerpt">
-          {{ post.excerpt | markdownify | strip_html | truncate: 100 }}
+          {{ post.excerpt | markdownify | strip_html | truncate: 60 }}
         </div>
         <div class="post__more_arrow"></div>
       </a>
@@ -25,4 +25,5 @@ layout: default
   {%- endfor -%}
   {%- include pagination.html -%}
 </main>
+
 {%- include footer.html -%}
