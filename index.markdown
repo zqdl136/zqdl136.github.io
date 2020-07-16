@@ -6,4 +6,9 @@ layout: home
 ---
 
 layout: about
+---
+
+layout: archive
+---
+
 
