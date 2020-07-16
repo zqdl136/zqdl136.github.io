@@ -2,8 +2,9 @@
 layout: default
 ---
 {%- include header.html -%}
-<main class="post__archive">
  {%- include blog.html -%}
+
+<main class="post__archive">
  {%- include header_nav.html -%}
   {%- if paginator -%}
   {%- assign posts=paginator.posts -%}
@@ -26,5 +27,6 @@ layout: default
   {%- endfor -%}
   {%- include pagination.html -%}
 </main>
+
 
 {%- include footer.html -%}
