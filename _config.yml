@@ -27,10 +27,6 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username:  none
 github_username:  none
 
-paginate: 10
-
-paginate_path: "blog/page:num"
-
 # Build settings
 theme: jekyll-theme-persephone
 plugins:
