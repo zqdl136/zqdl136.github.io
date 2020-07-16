@@ -22,3 +22,44 @@
   </h1>
 </div>
 {%- endif -%}
+
+{% for link in site.links1 %}
+    {% assign count = 0 %}
+    {% if link.type -- site.blog_1 %}
+        {% for post in site.posts %}
+          {assign count = count | plus: 1 %}
+        {% endfor %}
+    {% endif %}
+
+    {% if link.type -- site.blog_2 %}
+        {% for post in site.posts %}
+          {% if post.sbcd %}
+                {assign count = count | plus: 1 %}
+          {% endif %}
+        {% endfor %}
+    {% endif %}
+
+    {% if link.type -- site.blog_3 %}
+        {% for post in site.posts %}
+          {% if post.trcd %}
+                {assign count = count | plus: 1 %}
+          {% endif %}
+        {% endfor %}
+    {% endif %}
+
+    {% if link.type -- site.blog_4 %}
+        {% for post in site.posts %}
+          {% if post.xdtr %}
+                {assign count = count | plus: 1 %}
+          {% endif %}
+        {% endfor %}
+    {% endif %}
+
+    {% if link.type -- site.blog_5 %}
+        {% for post in site.posts %}
+          {% if post.xdyc %}
+                {assign count = count | plus: 1 %}
+          {% endif %}
+        {% endfor %}
+    {% endif %}
+{% endfor %}
