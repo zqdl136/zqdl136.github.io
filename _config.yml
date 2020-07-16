@@ -28,7 +28,7 @@ twitter_username: none
 github_username:  zqdl136
 
 # Build settings
-theme: minima
+theme: jekyll-theme-persephone
 plugins:
   - jekyll-feed
 
