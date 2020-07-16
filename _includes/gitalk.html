@@ -1,21 +1,18 @@
-
-<!-- Link Gitalk 的支持文件  -->
+{% if site.gitalk_shortname %}
 <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
-<script src="https://unpkg.com/gitalk@latest/dist/gitalk.min.js"></script> 
-<script type="text/javascript" src="/assets/js/md5.min.js"></script>
-<div id="gitalk-container"></div>     
-<script type="text/javascript">
-    var gitalk = new Gitalk({
+<script src="https://unpkg.com/gitalk@latest/dist/gitalk.min.js"></script>
 
-    // gitalk的主要参数
-        clientID: '5ee2e14011d8434f27ee',
-        clientSecret: '4d56616bbe53b5255228c005ad84e6dc82de41cb',
-        repo: 'https://zqdl136.github.io',
-        owner: 'zqdl136',
-        admin: ['zqdl136'],
-        id: md5(location.pathname),
-        
-    });
-    gitalk.render('gitalk-container');
-</script> 
-<!-- Gitalk end -->
+<div id="gitalk-container"></div>
+<script>
+var gitalk = new Gitalk({
+  clientID: '5ee2e14011d8434f27ee',
+  clientSecret: '4d56616bbe53b5255228c005ad84e6dc82de41cb',
+  repo: 'zqdl136.github.io',
+  owner: 'zqdl136',
+  admin: ['zqdl136'],
+  id: decodeURI(window.location.pathname), 
+});
+
+gitalk.render('gitalk-container');
+</script>
+{% endif %}
