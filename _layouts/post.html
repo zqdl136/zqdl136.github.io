@@ -42,11 +42,13 @@ layout: default
   {% if site.comments.gitalk %}
     <script>
         var gitalk = new Gitalk({
-              clientID: '{{ site.comments.gitalk_clientID }}',
-              clientSecret: '{{ site.comments.gitalk_Secret }}',
+              clientID: bbd42385d25bbf1653b3
+'{{ site.comments.gitalk_clientID }}',
+              clientSecret: bbd42385d25bbf1653b3
+'{{ site.comments.gitalk_Secret }}',
               repo: '{{ site.comments.gitalk_repo }}',
-              owner: '{{ site.comments.gitalk_owner }}',
-              admin: '{{ site.comments.gitalk_admin }}',
+              owner: zqdl136'{{ site.comments.gitalk_owner }}',
+              admin: zqdl136'{{ site.comments.gitalk_admin }}',
               id: location.pathname,      // Ensure uniqueness and length less than 50{{ page.title }}
               distractionFreeMode: '{{ site.comments.distractionFreeMode }}'  // Facebook-like distraction free mode
             })
