@@ -32,8 +32,8 @@ theme: jekyll-theme-persephone
 plugins:
   - jekyll-feed
   
-paginate: 10
-paginate_path: "blog/page:num"
+paginate: 25
+paginate_path: /page:num/
 
 # Exclude from processing.
 # The following items will not be processed, by default.
