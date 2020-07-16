@@ -1,65 +1,13 @@
-<a href="{{ "/" | relative_url }}" class="logo">
-  {%- if site.logo -%}
-  <img src="{{ site.logo | img_url_prefix }}" class="logo_img">
-  {%- endif -%}
-  <h1>{{ site.title }}</h1>
-</a>
-{%- if "slides,chapter,book" contains page.layout and site.theme_setting.archive_page -%}
-{%- assign archive_page = site.pages | where: "path", site.theme_setting.archive_page | first -%}
-<a href="{{ archive_page.url | relative_url }}" class="sidebar__toggler">
-  <span class="sidebar__toggler_top"></span>
-  <span class="sidebar__toggler_middle"></span>
-  <span class="sidebar__toggler_bottom"></span>
-</a>
-{%- endif %}
-{%- if page.layout == "chapter" -%}
-<div class="book-header" role="navigation">
-    <a href="#" id="summaryToggler" class="summary__toggler">
-      {% include icons/ellipsis.html%}
-    </a>
-  <h1>
-    {{ page.title }} - {{ page.book.title }}
-  </h1>
-</div>
-{%- endif -%}
-
-{% for link in site.links1 %}
-    {% assign count = 0 %}
-    {% if link.type -- site.blog_1 %}
-        {% for post in site.posts %}
-          {assign count = count | plus: 1 %}
-        {% endfor %}
-    {% endif %}
-
-    {% if link.type -- site.blog_2 %}
-        {% for post in site.posts %}
-          {% if post.sbcd %}
-                {assign count = count | plus: 1 %}
-          {% endif %}
-        {% endfor %}
-    {% endif %}
-
-    {% if link.type -- site.blog_3 %}
-        {% for post in site.posts %}
-          {% if post.trcd %}
-                {assign count = count | plus: 1 %}
-          {% endif %}
-        {% endfor %}
-    {% endif %}
-
-    {% if link.type -- site.blog_4 %}
-        {% for post in site.posts %}
-          {% if post.xdtr %}
-                {assign count = count | plus: 1 %}
-          {% endif %}
-        {% endfor %}
-    {% endif %}
-
-    {% if link.type -- site.blog_5 %}
-        {% for post in site.posts %}
-          {% if post.xdyc %}
-                {assign count = count | plus: 1 %}
-          {% endif %}
-        {% endfor %}
-    {% endif %}
-{% endfor %}
+<header class="g-header">
+    <div class="g-logo">
+      <a href="{{ "/" | relative_url }}"></a>
+    </div>
+    <i id="menu-toggle" class="iconfont icon-menu"></i>
+    <nav class="g-nav">
+        <ul>
+            {% for i in site.nav %}
+            <li><a href="{{ i[1] | relative_url}}">{{ i[0] }}</a></li>
+            {% endfor %}
+        </ul>
+    </nav>
+</header>
