@@ -35,6 +35,33 @@ plugins:
 paginate: 25
 paginate_path: /page:num/
 
+links1:
+  - name: ALL
+    url: /
+    type: recent
+    external: false
+  - name: 十年灯
+    url: /blog/sbcd
+    type: sbcd
+    external: false
+  - name: 一杯酒
+    url: /blog/trcd
+    type: trcd
+    external: false
+  - name: 渔火
+    url: /blog/xdtr
+    type: xdtr
+    external: false
+  - name: 星光
+    url: /blog/xdyc
+    type: xdyc
+    external: false
+blog_1: recent
+blog_2: sbcd
+blog_3: trcd
+blog_4: xdtr
+blog_5: xdyc
+
 comments:
   gitalk: true
   gitalk_clientID: 'bbd42385d25bbf1653b3'
