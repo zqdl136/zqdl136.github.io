@@ -1,17 +1,24 @@
-# title: Your Site Title
-# description: The description of your site.
-# email: your-email@address.com
+# title: 兰桂桨
+# description: 来一杯芒果奶昔吧！
+# email: ziqidonglai136@sina.com
 
-# author: Your name #  Default is your site title.
+# author: 溯流光 #  Default is your site title.
 
+<<<<<<< HEAD
 # # Your social accounts.
 # social:
-#   github: github_username
-#   twitter: twitter_username
-#   facebook: facebook_username
-#   instagram: instagram_username
-#   linkedin: linkedin_username
-#   weibo: weibo_username
+#   github: none
+#   twitter: none
+#   facebook: none
+#   instagram: none
+#   linkedin: none
+#   weibo: 临渊静候
+=======
+# Build settings
+theme: jekyll-theme-persephone
+plugins:
+  - jekyll-feed
+>>>>>>> 8d10caeccb912032b20df3da02bd0b713f88af80
 
 # # Theme Settings
 
