@@ -42,7 +42,7 @@ valine_comment:
 # app_key
   leancloud_appkey: bMvALVyeDraAPEEGLUrqRO9m
 # placeholde
-  placeholder: “Just go go"
+  placeholder: "Just go go"
 
 # Exclude from processing.
 # The following items will not be processed, by default.
