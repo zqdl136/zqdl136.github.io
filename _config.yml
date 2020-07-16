@@ -39,6 +39,13 @@ nightMode: true
 comments:
   disqus: false
   disqus_url: 'https://liaokeyu.disqus.com/embed.js'
+  gitalk: true
+  gitalk_clientID: '057d0d20fc42461bb15c'
+  gitalk_Secret: '96c1931a22290ec41e295f10672b8ddc9699d7d9'
+  gitalk_repo: 'zqdl136.github.io'
+  gitalk_owner: 'zqdl136'
+  gitalk_admin: 'zqdl136'
+  distractionFreeMode: true
 
 # MathJax 公式支持 by Ray-Eldath
 mathjax: true
