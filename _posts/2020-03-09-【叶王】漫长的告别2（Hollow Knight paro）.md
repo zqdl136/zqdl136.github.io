@@ -2,7 +2,7 @@
 title: 【叶王】漫长的告别2（Hollow Knight paro）
 date: 2020-03-09 15:32:47
 tags: [全职高手, 叶王叶, 漫长的告别]
-categories: [Text]
+categories: [《漫长的告别》（叶王）]
 ---
 
 <p><br /></p> 

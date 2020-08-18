@@ -2,7 +2,7 @@
 title: 【无授翻】兄弟（Brothers by Sera Necto23）
 date: 2020-03-05 08:55:21
 tags: [wincest]
-categories: [Text]
+categories: [无所属同人]
 ---
 
 <p>（部分是为了）学英语的CET-4水平瞎翻译。</p> 
