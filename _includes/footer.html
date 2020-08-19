@@ -1,14 +1,14 @@
     <footer class="container">
-
+    
       {% include footer-ad.html %}
-
+    
         <div class="site-footer" role="contentinfo">
             <div class="copyright left mobile-block">
-                    © 2015
+                    © 2020
                     <span title="{{ site.author}}">{{ site.author }}</span>
                     <a href="javascript:window.scrollTo(0,0)" class="right mobile-visible">TOP</a>
             </div>
-
+    
             <ul class="site-footer-links right mobile-hidden">
                 <li>
                     <a href="javascript:window.scrollTo(0,0)" >TOP</a>
@@ -25,9 +25,9 @@
                 {% endfor %}
                 <li><a href="{{ site.url }}{{ site.subscribe_rss }}"><span class="octicon octicon-rss" style="color:orange;"></span></a></li>
             </ul>
-
+    
           {% include visit-stat.html %}
-
+    
         </div>
     </footer>
     <div class="tools-wrapper">
@@ -46,12 +46,12 @@
        /* hljs.initHighlightingOnLoad(); */
       });
     </script>
-
+    
     {% if page.mermaid %}
     <script src="{{ assets_base_url }}/assets/js/mermaid.min.js"></script>
     <script>mermaid.initialize({startOnLoad:true});</script>
     {% endif %}
-
+    
     {% if page.sequence %}
     <script src="{{ assets_base_url }}/assets/js/webfont.js"></script>
     <script src="{{ assets_base_url }}/assets/js/snap.svg-min.js"></script>
@@ -62,17 +62,17 @@
       $(".language-sequence").sequenceDiagram({theme: 'simple'});
     </script>
     {% endif %}
-
+    
     {% if page.flow %}
     <script src="{{ assets_base_url }}/assets/js/raphael.min.js"></script>
     <script src="{{ assets_base_url }}/assets/vendor/flowchart.js/dist/flowchart.min.js"></script>
     <script src="{{ assets_base_url }}/assets/js/flow.js"></script>
     {% endif %}
-
+    
     {% if page.mathjax %}
     <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/mathjax/MathJax@2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
     {% endif %}
-
+    
     {% if page.mindmap %}
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/mzlogin/kityminder-core@dev/dist/kityminder.core.css">
     <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/mzlogin/kity@dev/dist/kity.min.js"></script>
@@ -100,9 +100,9 @@ $(document).ready(function(){
     viewerTipNode.setAttribute('style', 'font-size:0.8rem;font-style:italic;font-color:grey;');
     viewerTipNode.innerText = '全屏查看';
     parentNode.insertBefore(viewerTipNode, element.parentNode);
-
+    
     element.parentNode.style.display = 'none';
-
+    
     {% if page.mindmap-template %}
     setTimeout(function() {
       minder.setTemplate('{{ page.mindmap-template }}');
@@ -121,10 +121,10 @@ $(document).ready(function(){
         (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
         m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
         })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
+    
         ga('create', '{{ site.google.analytics_id }}', 'auto');
         ga('send', 'pageview');
-
+    
       </script>
     </div>
     {% endif %}

@@ -23,11 +23,11 @@ layout: default
 </section>
 <!-- / .banner -->
 
-{% include sidebar-categories-nav.html %}
 
 <section class="container content">
     <div class="columns">
         <div class="column two-thirds" >
+            {% include sidebar-categories-nav.html %}
             <article class="article-content markdown-body">
                 {{ content }}
             </article>
@@ -44,6 +44,7 @@ layout: default
         </div>
     </div>
 </section>
+
 
 <!-- /section.content -->
 
