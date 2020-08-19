@@ -59,12 +59,6 @@ navs:
     href: /categories/
     label: 归档
 
-  -
-    href: /tags/
-    label: 标签
-
-
-
 #   -
 #     href: /archives/
 #     label: 归档
