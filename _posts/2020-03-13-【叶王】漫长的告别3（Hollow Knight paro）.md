@@ -3,6 +3,7 @@ title: 【叶王】漫长的告别3（Hollow Knight paro）
 date: 2020-03-13 10:21:42
 tags: [全职高手, 叶王叶, 漫长的告别]
 categories: [《漫长的告别》（叶王）]
+excerpt: 假骑士
 ---
 
 <p><strong>预警：暴力/血腥/黑暗/扭曲</strong></p> 

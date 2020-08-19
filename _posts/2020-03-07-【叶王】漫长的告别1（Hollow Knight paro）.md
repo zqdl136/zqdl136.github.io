@@ -3,6 +3,7 @@ title: 【叶王】漫长的告别1（Hollow Knight paro）
 date: 2020-03-07 10:03:23
 tags: [全职高手, 叶王叶, 漫长的告别]
 categories: [《漫长的告别》（叶王）]
+excerpt: 德特茅斯
 ---
 
 <p>以游戏《空洞骑士》为背景并有所更改。</p> 
