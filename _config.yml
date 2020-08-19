@@ -11,7 +11,7 @@ keywords: 溯流光,同人,原创,布袋戏,文字
 timezone: Asia/Tianjin
 encoding: "utf-8"
 side_bar_repo_limit: 5
-repository: mzlogin/mzlogin.github.io
+repository: zqdl136/zqdl136.github.io
 
 # 对 css 和 js 资源的 cdn 加速配置
 cdn:
@@ -57,7 +57,13 @@ navs:
 
   -
     href: /categories/
-    label: 分类
+    label: 归档
+
+  -
+    href: /tags/
+    label: 标签
+
+
 
 #   -
 #     href: /archives/
