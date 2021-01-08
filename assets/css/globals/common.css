@@ -1,9 +1,9 @@
-.site-header,.site-header-actions .select-menu {
+﻿.site-header,.site-header-actions .select-menu {
     position: relative
 }
 
 .markdown-body,body {
-    font-family: Arial,"Hiragino Sans GB","冬青黑","Microsoft YaHei","微软雅黑",SimSun,"宋体",Helvetica,Tahoma,Arial sans-serif;
+    font-family: Arial,"Hiragino Sans GB","冬青黑","Microsoft YaHei","微软雅黑",SimSun,"方正风雅宋简体 常规",Helvetica,Tahoma,Arial sans-serif;
     font-size: 16px;
     line-height: 1.6;
     word-wrap: break-word;
